@@ -1,0 +1,41 @@
+Complete:
+- Update MainWindow
+- Redo DiagramToolBox
+- DrawingItem and DrawingItemPoint: rename setPosition to setPos
+
+Todo:
+- DrawingItem
+	- Delete units and add setScale, scale, and transform
+	- Delete MatchUnitsWithParent
+	- Delete canMove(), ... other flags helper functions
+	- Change setRotationAngle to setRotation
+	- Reduce unnecessary properties functions
+	- Reduce unnecessary points functions
+	- Create DrawingPointsItem and move points functions there
+	- Rename uniqueKey to type
+	- Redo event handling to match GraphicsView Framework
+	- Delete centerPos()?
+- DrawingScene
+	- Delete units
+	- Delete contents rect, border width
+	- Scene rect can be any arbitrary rect
+	- Move selection mode to DrawingView?
+	- Delete forcing items inside
+	- Reduce unnecessary items functions
+	- Clean up undo/redo/clean to match rewrite branch
+	- Redo event handling to match GraphicsView Framework
+- DrawingView
+	- Add item selection mode?
+	- Delete mouse position text
+	- Replace zoomLevel with scale
+	- Clean up undo/redo/clean to match rewrite branch
+	- Redo event handling to match GraphicsView Framework
+- Fix move items undo command
+- Remove units, remove zoom combo
+- Change save files to SVG format?
+- DrawingItemFactory in DrawingItem.h/cpp?
+- DrawingPointsItem
+- Update DiagramView::drawBackground with origin, different border
+- Properties dock window (instead of second toolBar)
+- Split MainWindow class into DrawingWindow/DiagramWindow + MainWindow
+	- iSdiDocument interface?

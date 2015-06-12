@@ -1,0 +1,94 @@
+<library name="Logic">
+	<item name="AND_Gate" icon=":/icons/items/and_gate.png">
+        <path d="M -150 -100 C 250 -100 250 100 -150 100 L -150 -100 M -200 -50 L -150 -50 M -200 50 L -150 50 M 150 0 L 200 0"/>
+        <connectionPoint x="-200" y="-50"/>
+        <connectionPoint x="-200" y="50"/>
+        <connectionPoint x="200" y="0"/>
+	</item>
+	<item name="OR_Gate" icon=":/icons/items/or_gate.png">
+        <path d="M -150 -100 C 250 -100 250 100 -150 100 C -70 100 -70 -100 -150 -100 M -200 -50 L -100 -50 M -200 50 L -100 50 M 150 0 L 200 0"/>
+        <connectionPoint x="-200" y="-50"/>
+        <connectionPoint x="-200" y="50"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="XOR_Gate" icon=":/icons/items/xor_gate.png">
+        <path d="M -150 -100 C 250 -100 250 100 -150 100 C -70 100 -70 -100 -150 -100 M -200 100 C -120 100 -120 -100 -200 -100 M -200 -50 L -150 -50 M -200 50 L -150 50 M 150 0 L 200 0"/>
+        <connectionPoint x="-200" y="-50"/>
+        <connectionPoint x="-200" y="50"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="XNOR_Gate" icon=":/icons/items/xnor_gate.png">
+        <path d="M -150 -100 C 250 -100 250 100 -150 100 C -70 100 -70 -100 -150 -100 M -200 100 C -120 100 -120 -100 -200 -100 M 190 0 C 190 -11.0457 181.046 -20 170 -20 C 158.954 -20 150 -11.0457 150 0 C 150 11.0457 158.954 20 170 20 C 181.046 20 190 11.0457 190 0 M -200 -50 L -150 -50 M -200 50 L -150 50 M 190 0 L 200 0"/>
+        <connectionPoint x="-200" y="-50"/>
+        <connectionPoint x="-200" y="50"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="NAND_Gate" icon=":/icons/items/nand_gate.png">
+        <path d="M -150 -100 C 250 -100 250 100 -150 100 L -150 -100 M 190 0 C 190 -11.0457 181.046 -20 170 -20 C 158.954 -20 150 -11.0457 150 0 C 150 11.0457 158.954 20 170 20 C 181.046 20 190 11.0457 190 0 M -200 -50 L -150 -50 M -200 50 L -150 50 M 190 0 L 200 0"/>
+        <connectionPoint x="-200" y="-50"/>
+        <connectionPoint x="-200" y="50"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="NOR_Gate" icon=":/icons/items/nor_gate.png">
+        <path d="M -150 -100 C 250 -100 250 100 -150 100 C -70 100 -70 -100 -150 -100 M 190 0 C 190 -11.0457 181.046 -20 170 -20 C 158.954 -20 150 -11.0457 150 0 C 150 11.0457 158.954 20 170 20 C 181.046 20 190 11.0457 190 0 M -200 -50 L -100 -50 M -200 50 L -100 50 M 190 0 L 200 0"/>
+        <connectionPoint x="-200" y="-50"/>
+        <connectionPoint x="-200" y="50"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Multiplexer" icon=":/icons/items/multiplexer.png">
+        <path d="M -100 -200 L -100 200 L 100 100 L 100 -100 L -100 -200 M -200 -100 L -100 -100 M -200 100 L -100 100 M 100 0 L 200 0"/>
+        <connectionPoint x="-200" y="-100"/>
+        <connectionPoint x="-200" y="100"/>
+        <connectionPoint x="0" y="-150"/>
+        <connectionPoint x="0" y="150"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Demultiplexer" icon=":/icons/items/demultiplexer.png">
+        <path d="M 100 -200 L 100 200 L -100 100 L -100 -100 L 100 -200 M 200 -100 L 100 -100 M 200 100 L 100 100 M -100 0 L -200 0"/>
+        <connectionPoint x="200" y="-100"/>
+        <connectionPoint x="200" y="100"/>
+        <connectionPoint x="0" y="-150"/>
+        <connectionPoint x="0" y="150"/>
+        <connectionPoint x="-200" y="0"/>
+    </item>
+	<item name="Buffer" icon=":/icons/items/buffer.png">
+        <path d="M -200 0 L -50 0 M 50 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75"/>
+         <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="NOT_Gate" icon=":/icons/items/not_gate.png">
+        <path d="M -200 0 L -50 0 M 90 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75 M 90 0 C 90 -11.0457 81.0457 -20 70 -20 C 58.9543 -20 50 -11.0457 50 0 C 50 11.0457 58.9543 20 70 20 C 81.0457 20 90 11.0457 90 0"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Tristate_Buffer1" icon=":/icons/items/tristate_buffer.png">
+        <path d="M -200 0 L -50 0 M 50 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75 M 0 -37.5 L 0 -75"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+        <connectionPoint x="0" y="-75"/>
+    </item>
+	<item name="Tristate_Buffer2" icon=":/icons/items/tristate_buffer2.png">
+        <path d="M -200 0 L -50 0 M 90 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75 M 90 0 C 90 -11.0457 81.0457 -20 70 -20 C 58.9543 -20 50 -11.0457 50 0 C 50 11.0457 58.9543 20 70 20 C 81.0457 20 90 11.0457 90 0 M 0 -37.5 L 0 -75"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+        <connectionPoint x="0" y="-75"/>
+    </item>
+	<item name="Flip-Flop1" icon=":/icons/items/flip_flop.png">
+        <path d="M -150 -200 L -150 200 L 150 200 L 150 -200 L -150 -200 M -200 -100 L -150 -100 M -200 100 L -150 100 M 200 -100 L 150 -100 M 200 100 L 150 100"/>
+        <connectionPoint x="-200" y="-100"/>
+        <connectionPoint x="-200" y="100"/>
+        <connectionPoint x="0" y="-200"/>
+        <connectionPoint x="0" y="200"/>
+        <connectionPoint x="200" y="-100"/>
+        <connectionPoint x="200" y="100"/>
+    </item>
+	<item name="Flip-Flop2" icon=":/icons/items/flip_flop2.png">
+        <path d="M -150 -200 L -150 200 L 150 200 L 150 -200 L -150 -200 M -200 -100 L -150 -100 M -200 100 L -150 100 M 200 -100 L 150 -100 M 200 100 L 150 100 M -150 50 L -100 100 L -150 150"/>
+        <connectionPoint x="-200" y="-100"/>
+        <connectionPoint x="-200" y="100"/>
+        <connectionPoint x="0" y="-200"/>
+        <connectionPoint x="0" y="200"/>
+        <connectionPoint x="200" y="-100"/>
+        <connectionPoint x="200" y="100"/>
+    </item>
+</library>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/lib">
+        <file>logic.jlb</file>
+        <file>electric.jlb</file>
+    </qresource>
+</RCC>

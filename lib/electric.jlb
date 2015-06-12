@@ -1,0 +1,107 @@
+<library name="Electric">
+	<item name="Resistor1" icon=":/icons/items/resistor1.png">
+        <path d="M -200 0 L -150 0 L -125 -50 L -75 50 L -25 -50 L 25 50 L 75 -50 L 125 50 L 150 0 L 200 0"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+	</item>
+	<item name="Resistor2" icon=":/icons/items/resistor2.png">
+        <path d="M -200 0 L -150 0 M 200 0 L 150 0 M -150 -50 L 150 -50 L 150 50 L -150 50 L -150 -50"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Capacitor1" icon=":/icons/items/capacitor1.png">
+        <path d="M -200 0 L -25 0 M 25 0 L 200 0 M -25 -75 L -25 75 M 25 -75 L 25 75"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Capacitor2" icon=":/icons/items/capacitor2.png">
+        <path d="M -200 0 L -25 0 M 25 0 L 200 0 M -25 -75 L -25 75 M 45 -75 C 5 -60 5 60 45 75"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Inductor1" icon=":/icons/items/inductor1.png">
+        <path d="M -300 0 L -240 0 C -240 -41.4214 -213.137 -75 -180 -75 C -146.863 -75 -120 -41.4214 -120 0 C -120 -41.4214 -93.1371 -75 -60 -75 C -26.8629 -75 0 -41.4214 0 0 C 0 -41.4214 26.8629 -75 60 -75 C 93.1371 -75 120 -41.4214 120 0 C 120 -41.4214 146.863 -75 180 -75 C 213.137 -75 240 -41.4214 240 0 M 240 0 L 300 0"/>
+        <connectionPoint x="-300" y="0"/>
+        <connectionPoint x="300" y="0"/>
+    </item>
+	<item name="Diode" icon=":/icons/items/diode.png">
+        <path d="M -200 0 L -50 0 M 50 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75 M 50 -75 L 50 75"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Zener_Diode" icon=":/icons/items/zener_diode.png">
+        <path d="M -200 0 L -50 0 M 50 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75 M 100 -125 L 50 -75 L 50 75 L 0 125"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="Schottky_Diode" icon=":/icons/items/schottky_diode.png">
+        <path d="M -200 0 L -50 0 M 50 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75 M 10 60 L 10 100 L 50 100 L 50 -100 L 90 -100 L 90 -60"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="NPN_BJT" icon=":/icons/items/npn_bjt.png">
+        <path d="M 175 0 C 175 -88.3656 103.366 -160 15 -160 C -73.3656 -160 -145 -88.3656 -145 0 C -145 88.3656 -73.3656 160 15 160 C 103.366 160 175 88.3656 175 0 M 100 -200 L 100 -100 L -75 -50 M -75 50 L 100 100 L 100 200 M -75 -100 L -75 100 M -200 0 L -75 0 M 70.86 47.55 L 100 100 L 41.55 129.14"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="100" y="200"/>
+        <connectionPoint x="100" y="-200"/>
+    </item>
+	<item name="PNP_BJT" icon=":/icons/items/pnp_bjt.png">
+        <path d="M 175 0 C 175 -88.3656 103.366 -160 15 -160 C -73.3656 -160 -145 -88.3656 -145 0 C -145 88.3656 -73.3656 160 15 160 C 103.366 160 175 88.3656 175 0 M 100 -200 L 100 -100 L -75 -50 M -75 50 L 100 100 L 100 200 M -75 -100 L -75 100 M -200 0 L -75 0 M -22.55 20.86 L -75 50 L -45.86 102.45"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="100" y="200"/>
+        <connectionPoint x="100" y="-200"/>
+    </item>
+	<item name="NMOS_FET" icon=":/icons/items/nmos_fet.png">
+        <path d="M 175 0 C 175 -88.3656 103.366 -160 15 -160 C -73.3656 -160 -145 -88.3656 -145 0 C -145 88.3656 -73.3656 160 15 160 C 103.366 160 175 88.3656 175 0 M 100 -200 L 100 -75 L 0 -75 M 0 0 L 100 0 L 100 200 M 0 75 L 100 75 M 0 100 L 0 50 M 0 25 L 0 -25 M 0 -50 L 0 -100 M -75 -100 L -75 100 M -200 0 L -75 0 M 42.43 -42.43 L 0 0 L 42.43 42.43"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="100" y="200"/>
+        <connectionPoint x="100" y="-200"/>
+    </item>
+	<item name="PMOS_FET" icon=":/icons/items/pmos_fet.png">
+        <path d="M 175 0 C 175 -88.3656 103.366 -160 15 -160 C -73.3656 -160 -145 -88.3656 -145 0 C -145 88.3656 -73.3656 160 15 160 C 103.366 160 175 88.3656 175 0 M 100 200 L 100 75 L 0 75 M 0 0 L 100 0 L 100 -200 M 0 -75 L 100 -75 M 0 100 L 0 50 M 0 25 L 0 -25 M 0 -50 L 0 -100 M -75 -100 L -75 100 M -200 0 L -75 0 M 57.57 -42.43 L 100 0 L 57.57 42.43"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="100" y="200"/>
+        <connectionPoint x="100" y="-200"/>
+    </item>
+	<item name="Ground1" icon=":/icons/items/ground1.png">
+        <path d="M 0 0 L 0 50 M -100 50 L 100 50 M -75 100 L 75 100 M -50 150 L 50 150"/>
+        <connectionPoint x="0" y="0"/>
+    </item>
+	<item name="Ground2" icon=":/icons/items/ground2.png">
+        <path d="M 0 0 L 0 50 M -100 50 L 100 50 L 0 150 L -100 50"/>
+        <connectionPoint x="0" y="0"/>
+    </item>
+	<item name="Op_Amp" icon=":/icons/items/opamp.png">
+        <path d="M -200 -200 L -200 200 L 200 0 L -200 -200 M -300 -100 L -200 -100 M -300 100 L -200 100 M 300 0 L 200 0 M -170 -100 L -90 -100 M -130 -140 L -130 -60 M -170 100 L -90 100"/>
+        <connectionPoint x="-300" y="-100"/>
+        <connectionPoint x="-300" y="100"/>
+        <connectionPoint x="0" y="-100"/>
+        <connectionPoint x="0" y="100"/>
+        <connectionPoint x="300" y="0"/>
+    </item>
+	<item name="LED" icon=":/icons/items/led.png">
+        <path d="M -200 0 L -50 0 M 50 0 L 200 0 M -50 -75 L -50 75 L 50 0 L -50 -75 M 50 -75 L 50 75 M 70 -35 L 110 -75 M 80 -75 L 110 -75 L 110 -45 M 130 -35 L 170 -75 M 140 -75 L 170 -75 L 170 -45"/>
+        <connectionPoint x="-200" y="0"/>
+        <connectionPoint x="200" y="0"/>
+    </item>
+	<item name="DC_Voltage" icon=":/icons/items/vdc.png">
+        <path d="M 150 0 C 150 -110.457 82.8427 -200 0 -200 C -82.8427 -200 -150 -110.457 -150 0 C -150 110.457 -82.8427 200 0 200 C 82.8427 200 150 110.457 150 0 M 0 -300 L 0 -200 M 0 200 L 0 300 M -40 -65 L 40 -65 M 0 -105 L 0 -25 M -40 90 L 40 90"/>
+        <connectionPoint x="0" y="-300"/>
+        <connectionPoint x="0" y="300"/>
+    </item>
+	<item name="AC_Voltage" icon=":/icons/items/vac.png">
+        <path d="M 150 0 C 150 -110.457 82.8427 -200 0 -200 C -82.8427 -200 -150 -110.457 -150 0 C -150 110.457 -82.8427 200 0 200 C 82.8427 200 150 110.457 150 0 M 0 -300 L 0 -200 M 0 200 L 0 300 M -50 0 C -10 -120 10 120 50 0"/>
+        <connectionPoint x="0" y="-300"/>
+        <connectionPoint x="0" y="300"/>
+    </item>
+	<item name="DC_Current" icon=":/icons/items/idc.png">
+        <path d="M 150 0 C 150 -110.457 82.8427 -200 0 -200 C -82.8427 -200 -150 -110.457 -150 0 C -150 110.457 -82.8427 200 0 200 C 82.8427 200 150 110.457 150 0 M 0 -300 L 0 -200 M 0 200 L 0 300 M 0 100 L 0 -100 M -42.43 -57.57 L 0 -100 L 42.43 -57.57"/>
+        <connectionPoint x="0" y="-300"/>
+        <connectionPoint x="0" y="300"/>
+    </item>
+	<item name="AC_Current" icon=":/icons/items/iac.png">
+        <path d="M 150 0 C 150 -110.457 82.8427 -200 0 -200 C -82.8427 -200 -150 -110.457 -150 0 C -150 110.457 -82.8427 200 0 200 C 82.8427 200 150 110.457 150 0 M 0 -300 L 0 -200 M 0 200 L 0 300 M 0 100 L 0 -100 M -42.43 -57.57 L 0 -100 L 42.43 -57.57 M -50 0 C -10 -120 10 120 50 0"/>
+        <connectionPoint x="0" y="-300"/>
+        <connectionPoint x="0" y="300"/>
+    </item>
+</library>
